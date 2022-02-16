@@ -36,4 +36,5 @@ function sendData(e) {
   formRef.reset();
   console.log(JSON.parse(localStorage.getItem('feedback-form-state')));
   localStorage.removeItem('feedback-form-state');
+  feedBackForm = {};
 }
